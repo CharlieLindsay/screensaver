@@ -1,21 +1,25 @@
-body{
+body {
   background-color: black;
-  background-repeat:none;
-  background-size:cover;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-repeat: none;
+  background-size: cover;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-img{
+
+img {
   position: absolute;
 }
-html, body {
+
+html,
+body {
   overflow: hidden;
   height: 100%;
   margin: 0;
 }
-#info{
-  color:white;
-  text-align:center;
-  width:10%;
+
+#info {
+  color: white;
+  text-align: center;
+  width: 10%;
   position: absolute;
-  left:45%;
+  left: 45%;
 }

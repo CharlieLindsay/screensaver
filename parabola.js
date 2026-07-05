@@ -17,7 +17,7 @@ function timeandvideo() {
         if (minutes_into_day > 1140) {
             partition = (minutes_into_day - 1140);
         } else {
-             partition = (minutes_into_day + (1440 - 1140));
+            partition = (minutes_into_day + (1440 - 1140));
         }
         points_to_change_width = travelDistance / 660;
         width = (points_to_change_width * partition);

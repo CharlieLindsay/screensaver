@@ -1,3 +1,4 @@
+alert("Welcome! Click on the sun/moon to remove particles.")
 function star() {
     const starElement = document.getElementById("star");
     const starSize = 30;
