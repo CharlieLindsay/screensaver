@@ -7,7 +7,7 @@ A space-themed screensaver that changes depending on the time of day
 - Background changes depending on day or night
 - Spots fade in and out to assist with screen saving
 - Time and Date
-- Time and Date header randomly moves horizontally
+- Time and Date header randomly moves vertically
 
 
 ## How to try

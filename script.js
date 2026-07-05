@@ -96,10 +96,10 @@ function updateTime() {
 setInterval(updateTime, 1000);
 
 function headerposition() {
-    const minPercent = 10;
-    const maxPercent = 70;
-    const randomLeft = (Math.random() * (maxPercent - minPercent) + minPercent) + "%";
-    document.querySelector("#info").style.left = randomLeft;
+    const minPercent = 0;
+    const maxPercent = 15;
+    const randomTop = (Math.random() * (maxPercent - minPercent) + minPercent) + "%";
+    document.querySelector("#info").style.top = randomTop;
 }
 
 const headerpositionintervalId = setInterval(headerposition, 60000);
