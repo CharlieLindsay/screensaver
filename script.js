@@ -95,14 +95,12 @@ function updateTime() {
 }
 setInterval(updateTime, 1000);
 
-function headercolour() {
-    const randomColor = `rgb(${Math.floor(Math.random() * 256)}, 
-                             ${Math.floor(Math.random() * 256)}, 
-                             ${Math.floor(Math.random() * 256)})`;
-
-    document.querySelector("#time").style.color = randomColor;
-    document.querySelector("#date").style.color = randomColor;
+function headerposition() {
+    const minPercent = 10;
+    const maxPercent = 70;
+    const randomLeft = (Math.random() * (maxPercent - minPercent) + minPercent) + "%";
+    document.querySelector("#info").style.left = randomLeft;
 }
 
-const headercolourintervalId = setInterval(headercolour, 60000);
-headercolour();
+const headerpositionintervalId = setInterval(headerposition, 60000);
+headerposition();
