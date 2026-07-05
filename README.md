@@ -15,6 +15,7 @@ Try it at the website: https://screensaver.charleilei.dpdns.org/
 - https://www.pexels.com/photo/stunning-night-sky-filled-with-stars-33679044/
 - https://www.pexels.com/photo/vibrant-blue-sky-with-fluffy-clouds-32047220/
 - Randomisation from W3Schools
+- Date finding (not time) from W3Schools
 
 
 ## AI Use

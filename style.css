@@ -2,6 +2,7 @@ body{
   background-color: black;
   background-repeat:none;
   background-size:cover;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 img{
   position: absolute;
@@ -10,4 +11,8 @@ html, body {
   overflow: hidden;
   height: 100%;
   margin: 0;
+}
+#info{
+  color:white;
+  text-align:center;
 }
