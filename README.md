@@ -2,7 +2,12 @@
 A space-themed screensaver that changes depending on the time of day
 
 ## Features
-- 
+- Sun/Moon changes depending on time of day
+- Sun/Moon rises and falls in an arc
+- Background changes depending on day or night
+- Spots fade in and out to assist with screen saving
+- Time and Date
+- Time and Date header randomly moves horizontally
 
 
 ## How to try
