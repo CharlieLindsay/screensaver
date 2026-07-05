@@ -1,6 +1,8 @@
 # Charlie's Simple Screensaver
 A space-themed screensaver that changes depending on the time of day
 
+![How the screensaver looks at night!](https://screensaver.charleilei.dpdns.org/images/Screenshot2026-07-05222123.png)
+
 ### Warning: I have not tested the screenburn resistance of this screensaver, so use carefully and as you understand. I have tried to add as many precautions as possible, but I would recommend using this as a screen to switch to for only a few hours at a time to leave your computer looking nice. 
 
 ## Features
