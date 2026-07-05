@@ -14,6 +14,7 @@ Try it at the website: https://screensaver.charleilei.dpdns.org/
 - https://www.rawpixel.com/image/418599/the-sun-emitting-mid-level-solar-flare
 - https://www.pexels.com/photo/stunning-night-sky-filled-with-stars-33679044/
 - https://www.pexels.com/photo/vibrant-blue-sky-with-fluffy-clouds-32047220/
+- Randomisation from W3Schools
 
 
 ## AI Use
