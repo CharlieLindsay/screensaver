@@ -1,6 +1,8 @@
 # Charlie's Simple Screensaver
 A space-themed screensaver that changes depending on the time of day
 
+### Warning: I have not tested the screenburn resistance of this screensaver, so use carefully and as you understand. I have tried to add as many precautions as possible, but I would recommend using this as a screen to switch to for only a few hours at a time to leave your computer looking nice. 
+
 ## Features
 - Sun/Moon changes depending on time of day
 - Sun/Moon rises and falls in an arc
@@ -8,6 +10,7 @@ A space-themed screensaver that changes depending on the time of day
 - Spots fade in and out to assist with screen saving
 - Time and Date
 - Time and Date header randomly moves vertically
+- No particle mode
 
 
 ## How to try
