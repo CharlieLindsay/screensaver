@@ -94,3 +94,15 @@ function updateTime() {
     document.querySelector("#date").innerHTML = formattedDate;
 }
 setInterval(updateTime, 1000);
+
+function headercolour() {
+    const randomColor = `rgb(${Math.floor(Math.random() * 256)}, 
+                             ${Math.floor(Math.random() * 256)}, 
+                             ${Math.floor(Math.random() * 256)})`;
+
+    document.querySelector("#time").style.color = randomColor;
+    document.querySelector("#date").style.color = randomColor;
+}
+
+const headercolourintervalId = setInterval(headercolour, 60000);
+headercolour();
