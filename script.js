@@ -1,5 +1,8 @@
 function timeandvideo() {
     viewportWidth = window.innerWidth;
+    viewportHeight = window.innerHeight;
+    max_height = viewportHeight - 300
+    mid_width = (viewportWidth / 2)
     imageWidth = 300;
     travelDistance = viewportWidth - imageWidth;
     now = new Date();
@@ -18,6 +21,7 @@ function timeandvideo() {
         }
         points_to_change_width = travelDistance / 660;
         width = (points_to_change_width * partition);
+        height_inverted = (width-mid_width)*(width-mid_width)+max_height
         document.getElementById("moon").style.left = width + "px";
         console.log("Night", partition, width);
     }
