@@ -1,3 +1,4 @@
+// Script is the same as script.js which has comments, without the particles section
 alert("Warning: I am unsure whether having no particles will risk screen burn, so be careful. Select the sun/moon to switch back.")
 function updateTime() {
     const now = new Date();

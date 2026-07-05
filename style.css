@@ -1,18 +1,18 @@
 body {
-  background-color: black;
+  background-color: black; /*Just as a fall-back*/
   background-repeat: none;
   background-size: cover;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*The font for all body text*/
 }
 
 img {
-  position: absolute;
-  opacity:70%
+  position: absolute; /*Allows me to properly set the position using JavaScript*/
+  opacity:95%
 }
 
 html,
 body {
-  overflow: hidden;
+  overflow: hidden; /*Prevents scrollbar appearing*/
   height: 100%;
   margin: 0;
 }
@@ -21,6 +21,7 @@ body {
   color: white;
   text-align: center;
   width: 10%;
-  position: absolute;
+  position: absolute; /*So it can be moved up and down easily using JavaScript and randomisation*/
   left: 45%;
+  z-index: 10; /*Ensures text is above images like the sun and moon*/
 }

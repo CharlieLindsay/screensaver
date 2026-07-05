@@ -4,25 +4,28 @@
 <!--I hope you love my site!-->
 
 <head>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="images/moon.png">
+  <link rel="stylesheet" href="style.css"> <!--This is for the stylesheet which has some simple styles :)-->
+  <link rel="icon" type="image/x-icon" href="images/moon.png"> <!--I decided on having the moon as my logo-->
   <title>Screensaver!</title>
 </head>
 
 <body id="body">
   <div id="info">
-    <h1 id="time">Time</h1>
-    <h2 id="date">Date</h2>
+    <h1 id="time">Time</h1> <!--This will change when the JavaScript changes the contents of the time ID-->
+    <h2 id="date">Date</h2> <!--And same goes for the date!-->
   </div>
-  <a href="noparticles.html">
+  <a href="noparticles.html"> <!--Links to the no-particles version-->
     <img src="images/moon.png" width="300" id="moon" style="display:block;">
-    <img src="images/sun.png" width="300" id="sun" style="display:block;">
+    <!--Image of the moon gets controlled with JavaScript.-->
+    <img src="images/sun.png" width="300" id="sun" style="display:block;"> <!--Same goes for the sun!-->
   </a>
+  <!--The following 3 images are the same, but with different sizes and IDs and are the JavaScript-controlled particles.-->
   <img src="images/star.png" width="30" id="star" style="display:block;">
   <img src="images/star.png" width="10" id="star2" style="display:block;">
   <img src="images/star.png" width="20" id="star3" style="display:block;">
   <script src="parabola.js"></script>
-  <script src="script.js"></script>
+  <!--Adds the seperate javascript file for the rising and falling of the sun/moon to be safe-->
+  <script src="script.js"></script> <!--The main script-->
 </body>
 
 </html>
