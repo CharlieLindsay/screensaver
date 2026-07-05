@@ -1,10 +1,10 @@
 function timeandvideo() {
     viewportWidth = window.innerWidth;
     viewportHeight = window.innerHeight;
-    max_height = viewportHeight - 300
-    mid_width = (viewportWidth / 2)
     imageWidth = 300;
+    max_height = viewportHeight - 300
     travelDistance = viewportWidth - imageWidth;
+    mid_width = (travelDistance / 2)
     now = new Date();
     hours = now.getHours();
     minutes = now.getMinutes();
@@ -25,7 +25,7 @@ function timeandvideo() {
         height = max_height - a * (width - mid_width) * (width - mid_width);
         document.getElementById("moon").style.bottom = height + "px";
         document.getElementById("moon").style.left = width + "px";
-        console.log("Night", partition, width);
+        //console.log("Night", partition, width);
     }
     else {
         document.getElementById("moon").style.display = "none";
@@ -39,7 +39,7 @@ function timeandvideo() {
         height = max_height - a * (width - mid_width) * (width - mid_width);
         document.getElementById("sun").style.bottom = height + "px";
         document.getElementById("sun").style.left = width + "px";
-        console.log("Day", partition, width);
+        //console.log("Day", partition, width);
     }
 }
 
