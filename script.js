@@ -17,11 +17,13 @@ function timeandvideo() {
         if (minutes_into_day > 1140) {
             partition = (minutes_into_day - 1140);
         } else {
-            partition = (minutes_into_day + (1440 - 360));
+             partition = (minutes_into_day + (1440 - 1140));
         }
         points_to_change_width = travelDistance / 660;
         width = (points_to_change_width * partition);
-        height_inverted = (width-mid_width)*(width-mid_width)+max_height
+        let a = max_height / (mid_width * mid_width);
+        height = max_height - a * (width - mid_width) * (width - mid_width);
+        document.getElementById("moon").style.bottom = height + "px";
         document.getElementById("moon").style.left = width + "px";
         console.log("Night", partition, width);
     }
@@ -33,6 +35,9 @@ function timeandvideo() {
 
         points_to_change_width = travelDistance / 780;
         width = (points_to_change_width * partition);
+        let a = max_height / (mid_width * mid_width);
+        height = max_height - a * (width - mid_width) * (width - mid_width);
+        document.getElementById("sun").style.bottom = height + "px";
         document.getElementById("sun").style.left = width + "px";
         console.log("Day", partition, width);
     }
