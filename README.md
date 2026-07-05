@@ -13,7 +13,7 @@ A space-themed screensaver that changes depending on the time of day
 - Time and Date
 - Time and Date header randomly moves vertically
 - No particles mode
-- Works on different sized screens - tested with zooming in and out, and on computer and mobile!
+- Works on different sized screens - tested with zooming in and out, and on computer and mobile
 
 
 ## How to try
