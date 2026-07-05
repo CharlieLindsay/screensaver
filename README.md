@@ -13,10 +13,15 @@ A space-themed screensaver that changes depending on the time of day
 - Time and Date
 - Time and Date header randomly moves vertically
 - No particles mode
+- Works on different sized screens - tested with zooming in and out, and on computer and mobile!
 
 
 ## How to try
-Try it at the website: https://screensaver.charleilei.dpdns.org/
+### Opening
+- Try it at the website: https://screensaver.charleilei.dpdns.org/
+### Using
+- Just sit back and enjoy
+- Remove particles by clicking on the sun/moon
 
 
 ## Attribution
