@@ -13,7 +13,7 @@ function timeandvideo() {
     if (minutes_into_day > 1140 || minutes_into_day < 360) {
         document.getElementById("moon").style.display = "block";
         document.getElementById("sun").style.display = "none";
-
+        document.getElementById("body").style.backgroundImage = "url('images/stars.jpg')";
         if (minutes_into_day > 1140) {
             partition = (minutes_into_day - 1140);
         } else {
@@ -30,7 +30,7 @@ function timeandvideo() {
     else {
         document.getElementById("moon").style.display = "none";
         document.getElementById("sun").style.display = "block";
-
+        document.getElementById("body").style.backgroundImage = "url('images/daysky.jpg')";
         partition = (minutes_into_day - 360);
 
         points_to_change_width = travelDistance / 780;

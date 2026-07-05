@@ -1,5 +1,7 @@
 body{
   background-color: black;
+  background-repeat:none;
+  background-size:cover;
 }
 img{
   position: absolute;
